@@ -2,7 +2,7 @@
 
 import daisyui from "daisyui"
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}", // Include all relevant files
   ],
